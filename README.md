@@ -1,5 +1,7 @@
+This repo runs a main function of Pandas descriptive stats, with numpy version 1.25.1, and pandas version 2.1.0.
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+
+First thing to do on launch is to open a new shell and verify virtualenv is sourced.
 
 Things included are:
 
