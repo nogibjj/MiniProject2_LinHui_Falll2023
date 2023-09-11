@@ -6,7 +6,7 @@ df = pd.read_csv('AAPL.csv', index_col = 0)\
 print(df.head())
 
 summary_stats = pd.concat([df.describe(include='all').drop('count').T, \
-                           df.median().rename('median')], axis=1).T
+                           df.median().rename('median')], axis=1).T.round(decimals=2)
 print(summary_stats)
 
 plt.plot(df['Open'])
