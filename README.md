@@ -19,6 +19,7 @@
 - Volumn: Mean = 69482141.2, Median = 64624600, Std = 24118947.76
 
 ## AAPL stock price change over the year
+![Open price figure](https://github.com/nogibjj/MiniProject2_LinHui_Falll2023/assets/83142133/c673fe88-b4c0-4cb7-b1cb-bef0c8d8a2c1)
 
 
 ## This template comes from my previous project, which can be found on linhui7's repo.
