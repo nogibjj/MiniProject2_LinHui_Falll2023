@@ -1,10 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('AAPL.csv', index_col = 0).fillna(method = 'backfill')
+df = pd.read_csv('AAPL.csv', index_col = 0)\
+    .fillna(method = 'backfill')
 print(df.head())
 
-summary_stats = pd.concat([df.describe(include='all').drop('count').T, df.median().rename('median')], axis=1).T
+summary_stats = pd.concat([df.describe(include='all').drop('count').T, \
+                           df.median().rename('median')], axis=1).T
 print(summary_stats)
 
 plt.plot(df['Open'])
